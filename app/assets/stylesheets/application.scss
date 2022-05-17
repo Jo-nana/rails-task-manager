@@ -1,0 +1,45 @@
+@import "bootstrap/scss/bootstrap";
+
+.container{
+  margin: 0 auto;
+  width: 500px;
+  padding-left: 100px;
+}
+
+.list {
+  list-style: none;
+  padding-left: 160px;
+}
+
+li a{
+  text-decoration: none;
+  color: rgb(103, 103, 103);
+}
+li a:hover{
+  color: rgb(50, 50, 50);
+}
+
+.title{
+  text-align: center;
+}
+
+p {
+  padding-left: 100px;
+}
+p a{
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding : 2% 10%;
+  background: white;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+p a:hover{
+  background-color: black;
+  color: white;
+  border: black;
+}
